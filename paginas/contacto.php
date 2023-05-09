@@ -15,35 +15,10 @@
 </head>
 <body>
     <div class="container-fluid text-white">
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark text-white ">
-                <div class="container-fluid text-white ">
-                <a class="navbar-brand" href="#"><img src="../images\spiderman.png" class="logo img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse"  id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item" style="color: white">
-                            <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item" style="color: white">
-                            <a class="nav-link text-white" href="../paginas/descuentos.html">Descuentos</a>
-                        </li>
-                        <li class="nav-item" style="color: white">
-                            <a class="nav-link text-white" href="../paginas/Coleccionables.html">Coleccionables</a>
-                        <li class="nav-item" style="color: white">
-                            <a class="nav-link text-white" href="../paginas/contacto.html">Contacto</a>             
-                        </li>
-                    </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
-            </div>
-        </nav>
-        </header>
+        <?php
+        require('../PHP\header.php');
+        ?>
+
 
         <div class="row justify-content-center align-items-center">
             <div class="col text-center align-items-center flex-column">
@@ -85,5 +60,9 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js\jquery-3.6.4.min.js"></script>
+
+    <?php
+        require('../PHP\footer.php');
+    ?>
 </body>
 </html>

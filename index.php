@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE.php>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,19 @@
               <div class="collapse navbar-collapse"  id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item" style="color: white">
-                    <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link active text-white" aria-current="page" href="index.php">Inicio</a>
                   </li>
                   <li class="nav-item" style="color: white">
-                    <a class="nav-link text-white" href="../paginas/descuentos.html">Descuentos</a>
+                    <a class="nav-link text-white" href="paginas/descuentos.php">Descuentos</a>
                   </li>
                   <li class="nav-item" style="color: white">
-                    <a class="nav-link text-white" href="../paginas/Coleccionables.html">Coleccionables</a>
+                    <a class="nav-link text-white" href="paginas/Coleccionables.php">Coleccionables</a>
                   <li class="nav-item" style="color: white">
-                    <a class="nav-link text-white" href="../paginas/contacto.html">Contacto</a>
+                    <a class="nav-link text-white" href="paginas/contacto.php">Contacto</a>
+                  </li>
+                  <li class="nav-item" style="color: white">
+                    <a class="nav-link text-white" href="paginas/superheroes.php
+                    ">Superheroes</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -51,7 +55,7 @@
         <div class="col text-center align-items-center flex-column">
           <h1>¡Productos destacados!</h1>
           <p>Compra los productos más vendidos de Marvel a un increíble precio</p>
-          <a class="btn btn-secondary btn-lg" href="paginas\Coleccionables.html" role="button">Comprar ahora</a>
+          <a class="btn btn-secondary btn-lg" href="paginas\Coleccionables.php" role="button">Comprar ahora</a>
 
 
         </div>
@@ -107,4 +111,3 @@
     <script src="MyScript\myscript.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
-</html>
